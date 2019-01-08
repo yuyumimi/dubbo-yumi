@@ -13,5 +13,25 @@
     <url>https://github.com/yuyumimi/dubbo-yumi</url>
     <inceptionYear>2019</inceptionYear>
 
+    <properties>
 
+        <profile.name>oss</profile.name>
+        <java_source_version>1.8</java_source_version>
+        <java_target_version>1.8</java_target_version>
+        <file_encoding>UTF-8</file_encoding>
+        <junit_version>4.12</junit_version>
+    </properties>
+    <modules>
+        <module>dubbo-provider-spring</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit_version}</version>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>
 </project>
